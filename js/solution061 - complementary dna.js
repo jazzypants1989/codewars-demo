@@ -12,7 +12,6 @@ Example: (input --> output)
 "ATTGC" --> "TAACG"
 "GTAT" --> "CATA"
 
-
 */
 
 let pairs = {A:'T',T:'A',C:'G',G:'C'};
