@@ -1,1 +1,5 @@
-There will be a solution here tomorrow.
+class Kata {
+    static getVolumeOfCuboid(length, width, height) {
+      return length * width * height
+    }
+  }
