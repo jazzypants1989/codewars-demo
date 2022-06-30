@@ -8,5 +8,5 @@ solution('abc', 'd') // returns false
 */
 
 function solution(str, ending){
-  return new RegExp(ending+"$", "i").test(str);
+  return str.endsWith(ending);
 }
