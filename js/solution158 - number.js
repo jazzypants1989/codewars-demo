@@ -11,7 +11,7 @@ Don't forget the space after the closing parentheses!
 function createPhoneNumber(numbers) {
   let area = numbers.slice(0, 3).join("")
   let next = numbers.slice(3, 6).join("")
-  let last = numbers.slice(6, 9).join("")
+  let last = numbers.slice(6, 10).join("")
 
   let phone = `(${area}) ${next}-${last}`
 
