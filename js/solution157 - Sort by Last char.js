@@ -1,19 +1,9 @@
-/* Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
+/*
+Given a string of words (x), you need to return an array of the words, sorted alphabetically by the final character in each.
 
-Example
-createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
-The returned format must be correct in order to complete this challenge.
+If two words have the same last letter, they returned array should show them in the order they appeared in the given string.
 
-Don't forget the space after the closing parentheses!
+All inputs will be valid.*/
 
-*/
-
-function createPhoneNumber(numbers) {
-  let area = numbers.slice(0, 3).join("")
-  let next = numbers.slice(3, 6).join("")
-  let last = numbers.slice(6, 9).join("")
-
-  let phone = `(${area}) ${next}-${last}`
-
-  return phone
-}
+let last = (x) =>
+  x.split(" ").sort((a, b) => a.slice(-1).localeCompare(b.slice(-1)))
