@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<body>
+  <h1 id="title">Hey</h1>
+  <input id="name-field" placeholder="Enter Your Name" />
+</body>
+
+<script>
+  const cheese = new BroadcastChannel("cheese")
+  let name = ", what's up?"
+
+  const title = document.getElementById("title")
+  const nameField = document.getElementById("name-field")
+  const setTitle = (userName) => {
+    console.log(userName)
+    name = userName
+    title.innerHTML = "Hey " + userName
+  }
+
+  cheese.onmessage = (messageEvent) => {
+    const message = messageEvent.data
+    if (message.type === "changeName") {
+      setTitle(message.newName)
+    }
+  }
+
+  nameField.oninput = (e) => {
+    const inputValue = e.target.value
+    setTitle(inputValue)
+    cheese.postMessage({ type: "changeName", newName: name })
+  }
+</script>
