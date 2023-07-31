@@ -1,0 +1,16 @@
+{
+  "name": "codewars-demo",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "amend.js",
+  "keywords": [],
+  "author": "Jesse Pence",
+  "license": "ISC",
+  "description": "My Codewars Solutions!",
+  "bin": {
+    "amend": "./amend.js"
+  },
+  "scripts": {
+    "amend": "amend-commit"
+  }
+}
