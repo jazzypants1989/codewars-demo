@@ -7,10 +7,7 @@
   "author": "Jesse Pence",
   "license": "ISC",
   "description": "My Codewars Solutions!",
-  "bin": {
-    "amend": "./amend.js"
-  },
   "scripts": {
-    "amend": "amend-commit"
+    "amend": "node amend"
   }
 }
