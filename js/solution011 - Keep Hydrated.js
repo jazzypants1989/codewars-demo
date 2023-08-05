@@ -12,8 +12,9 @@ time = 6.7---> litres = 3
 
 time = 11.8--> litres = 5
 
+https://www.codewars.com/kata/582cb0224e56e068d800003c
 */
 
 function litres(time) {
-    return Math.floor( time / 2 )
-  }
+  return Math.floor(time / 2)
+}
