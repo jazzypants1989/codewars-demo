@@ -5,7 +5,7 @@ Given an n x n array, return the array elements arranged from outermost elements
 https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 */
 
-snail = function (array) {
+const snail = (array) => {
   let result
   while (array.length) {
     // First Row
