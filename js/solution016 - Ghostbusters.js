@@ -16,6 +16,11 @@ If the building contains no ghosts, return the string:
 
 "You just wanted my autograph didn't you?"
 
+https://www.codewars.com/kata/5668e3800636a6cd6a000018
+
 */
 
-let ghostBusters = building => building.split(' ').join('') === building ? "You just wanted my autograph didn't you?" : building.split(' ').join('')
+let ghostBusters = (building) =>
+  building.split(" ").join("") === building
+    ? "You just wanted my autograph didn't you?"
+    : building.split(" ").join("")
