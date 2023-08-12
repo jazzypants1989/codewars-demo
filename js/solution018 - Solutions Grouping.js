@@ -23,12 +23,15 @@ Notes:
     Preserve the order of the original list.
     Return an empty array [] if there is no developer with an "odd" name.
     The input array and first names will always be valid and formatted as in the example above.
+    
+    https://www.codewars.com/topics/solutions-grouping
 */
 
 function findOddNames(list) {
-    let result = []
-    for(let obj of list) {
-      if([...obj.firstName].reduce((a,c)=>a + c.charCodeAt(),0) % 2 !== 0) result.push(obj)
-    }
-    return result
+  let result = []
+  for (let obj of list) {
+    if ([...obj.firstName].reduce((a, c) => a + c.charCodeAt(), 0) % 2 !== 0)
+      result.push(obj)
   }
+  return result
+}
