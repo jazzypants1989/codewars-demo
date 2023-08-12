@@ -8,13 +8,16 @@ Example:
 
 evaporator(10, 10, 5) -> 29
 
+https://www.codewars.com/collections/deodorant-evaporator
+
 */
 
-function evaporator(content, evap_per_day, threshold){ 
-    let  days = 0, percentage = 100;  
-    while (percentage > threshold) {
-      percentage = percentage - percentage * (evap_per_day / 100);
-      days += 1;
-    }
-    return days;
+function evaporator(content, evap_per_day, threshold) {
+  let days = 0,
+    percentage = 100
+  while (percentage > threshold) {
+    percentage = percentage - percentage * (evap_per_day / 100)
+    days += 1
   }
+  return days
+}
