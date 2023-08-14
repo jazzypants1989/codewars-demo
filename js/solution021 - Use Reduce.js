@@ -11,11 +11,11 @@ var someNumbers = [1,2,3,4,5,6,7,8,9,10];
 
 sum(someNumbers); // should return 55
 
+https://www.codewars.com/kata/532b4057484b0e58e8000766
 */
 
 //easy one today
 
 function sum(array) {
-    return array.reduce((acc, c) => acc + c, 0)
-  }
-  
+  return array.reduce((acc, c) => acc + c, 0)
+}
