@@ -25,14 +25,14 @@ knight = [7, "B"], king = [6, "C"]  ---> "King"
 
 Check the test cases and Happy coding :)
 
+https://www.codewars.com/kata/564e1d90c41a8423230000bc
+
 */
 function knightVsKing(R, K) {
-    let dx = R[0] - K[0]
-    let dy = R[1].charCodeAt() - K[1].charCodeAt()
-    let d = dx * dx + dy * dy
-    if (d === 5)
-        return 'Knight'
-    if (d < 3)
-        return 'King'
-    return 'None'
+  let dx = R[0] - K[0]
+  let dy = R[1].charCodeAt() - K[1].charCodeAt()
+  let d = dx * dx + dy * dy
+  if (d === 5) return "Knight"
+  if (d < 3) return "King"
+  return "None"
 }
