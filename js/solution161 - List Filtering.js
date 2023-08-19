@@ -3,7 +3,10 @@
 Example
 filter_list([1,2,'a','b']) == [1,2]
 filter_list([1,'a','b',0,15]) == [1,0,15]
-filter_list([1,2,'aasf','1','123',123]) == [1,2,123]*/
+filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
+
+https://www.codewars.com/kata/53dbd5315a3c69eed20002dd
+*/
 
 function filter_list(list) {
   return list.filter((thing) => typeof thing === "number")

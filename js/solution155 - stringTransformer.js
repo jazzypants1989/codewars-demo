@@ -6,6 +6,8 @@ Note: You will have to handle multiple spaces, and leading/trailing spaces.
 For example:
 "Example Input" ==> "iNPUT eXAMPLE"
 You may assume the input only contain English alphabet and spaces.
+
+https://www.codewars.com/kata/5878520d52628a092f0002d0
 */
 
 function stringTransformer(str) {

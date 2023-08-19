@@ -10,4 +10,6 @@
 
 // All of the strings in the array passed to your function will be different lengths, so you will not have to decide how to order multiple strings of the same length.
 
-const sortByLength = (array) => array.sort((a,b) => a.length - b.length)
+// https://www.codewars.com/kata/57ea5b0b75ae11d1e800006c
+
+const sortByLength = (array) => array.sort((a, b) => a.length - b.length)
