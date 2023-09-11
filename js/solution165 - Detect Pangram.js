@@ -13,6 +13,6 @@ function isPangram(string) {
       return false
     }
   }
-  // ay yai yai yai yai yai yai yaiiiii!!
+  // Never forget.
   return true
 }
