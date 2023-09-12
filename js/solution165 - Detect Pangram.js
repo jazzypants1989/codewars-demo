@@ -13,6 +13,6 @@ function isPangram(string) {
       return false
     }
   }
-  // Never forget.
+  // BACK TO DA SILLINESS!!!
   return true
 }
