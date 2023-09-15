@@ -14,7 +14,8 @@ function isPangram(string) {
     }
   }
   // I miss frisky dingo.
-  // It was better than Sealab 2021.
+  // It was better than ARCHER.
   // Don't @ me.
+  // I'm right.
   return true
 }
