@@ -13,16 +13,8 @@ function isPangram(string) {
       return false
     }
   }
-  // I miss 90s cartoons.
-  // You know, stuff like "Dexter's Laboratory", "Johnny Bravo", "The Powerpuff Girls". DA GOOD STUFF.
-  // I'm not sure if I should be proud or ashamed of the fact that I can still remember the theme songs.
-  // Let's remember how Dexter's Laboratory's theme song goes:
-  // "In Dexter's Laboratory, lives
-  // the smart cool kid
-  // He's the greatest
-  // Everything he invents is the greatest
-  // Mom and Dad don't understand
-  // Dee Dee gets in his lab
-  // WHAT A BITCH
+  // I miss frisky dingo.
+  // It was better than Sealab 2021.
+  // Don't @ me.
   return true
 }
