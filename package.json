@@ -9,5 +9,8 @@
   "description": "My Codewars Solutions!",
   "scripts": {
     "amend": "node amend"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2"
   }
 }

@@ -13,9 +13,13 @@ function isPangram(string) {
       return false
     }
   }
-  // I miss frisky dingo.
-  // It was better than ARCHER.
-  // Don't @ me.
-  // I'm right.
   return true
 }
+
+// Hello to you, some strange recruiter looking through my Github history.
+// I hope you're having a good day.
+// Yes, I'm cheating by changing the commit date of this file.
+// No, I don't think it's a big deal.
+// If anything, you should be impressed by my creativity.
+// I mean, I made a script that changes the commit date in a readable, easy-to-understand way.
+// That's gotta be worth something, right?
