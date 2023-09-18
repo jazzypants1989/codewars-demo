@@ -23,3 +23,5 @@ function isPangram(string) {
 // If anything, you should be impressed by my creativity.
 // I mean, I made a script that changes the commit date in a readable, easy-to-understand way.
 // That's gotta be worth something, right?
+
+// RIGHT?!?!?
