@@ -19,9 +19,9 @@ function isPangram(string) {
 // Hello to you, some strange recruiter looking through my Github history.
 // I hope you're having a good day.
 // Yes, I'm cheating by changing the commit date of this file.
-// Why are you looking at this file anyway? It's a simple pangram checker.
+// Why are you looking at my individual commits anyway?
 // If anything, you should be impressed by my creativity.
-// I mean, I made a script that changes the commit date in a readable, easy-to-understand way.
+// I mean, I made a script that changes the commit date easily.
 // That's gotta be worth something, right?
 
 // RIGHT!?!?!?!?!?!?!?!?!?!?!?!?!?
