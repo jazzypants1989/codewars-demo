@@ -30,3 +30,4 @@ function isPangram(string) {
 // I hope you have a great day.
 // Good luck with your search for the perfect candidate.
 // It's obviously me, so just hire me already.
+// I'm kidding, of course.
