@@ -36,3 +36,4 @@ function isPangram(string) {
 // I'm also a great person.
 // Don't let this weird commit message fool you.
 // I'm just having fun.
+// I hope you are too.
