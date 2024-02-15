@@ -32,4 +32,3 @@ function isPangram(string) {
 // It's obviously me, so just hire me already.
 // I'm kidding, of course.
 // But seriously, hire me.
-// I'm a great developer.
