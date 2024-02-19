@@ -28,4 +28,3 @@ function isPangram(string) {
 // I'm sorry, I got a little carried away there.
 // I'm just trying to make you smile.
 // I hope you have a great day.
-// Good luck with your search for the perfect candidate.
