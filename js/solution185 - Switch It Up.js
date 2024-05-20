@@ -6,6 +6,8 @@
 
 // If your language supports it, try using a switch statement.
 
+// https://www.codewars.com/kata/5808dcb8f0ed42ae34000031
+
 function switchItUp(number) {
   const dictionary = {
     "0": "Zero",
