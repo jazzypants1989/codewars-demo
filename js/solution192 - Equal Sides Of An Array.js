@@ -28,6 +28,8 @@
 // Note
 // If you are given an array with multiple answers, return the lowest correct index.
 
+// https://www.codewars.com/kata/5679aa472b8f57fb8c000047
+
 function findEvenIndex(arr) {
   for (let index = 0; index < arr.length; index++) {
     let leftSide = arr.slice(0, index)
