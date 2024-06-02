@@ -4,10 +4,11 @@
 
 // https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
 
-function findShort(s){
-    let length
-    s.split(" ").map(el => {
-      if (!length) length = el.length
-      if (el.length < length) length = el.length
-    })
-    return length
+function findShort(s) {
+  let length
+  s.split(" ").map((el) => {
+    if (!length) length = el.length
+    if (el.length < length) length = el.length
+  })
+  return length
+}
