@@ -1,0 +1,13 @@
+// Simple, given a string of words, return the length of the shortest word(s).
+
+// String will never be empty and you do not need to account for different data types.
+
+// https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
+
+function findShort(s){
+    let length
+    s.split(" ").map(el => {
+      if (!length) length = el.length
+      if (el.length < length) length = el.length
+    })
+    return length
